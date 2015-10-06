@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stand Up Appearance at Flapper's Comedy Club
+title: Stand Up at Flapper's Comedy Club
 ---
 
 They say laughing can make you live longer, so we have that fountain of youth for you. Flapper's main room, Oct. 7th 10 pm. Be there.
