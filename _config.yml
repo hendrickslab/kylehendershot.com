@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               Kyle Hendershot
 tagline:             'Actor, Model, Entrepeneur'
-description:         'Paul Hendricks is a Actor, Model, Entrepeneur based out of Los Angeles, California.'
+description:         'Paul Hendricks is a Actor, Model, and Entrepeneur based out of Los Angeles, California.'
 url:                 http://kylehendershot.com
 baseurl:             'http://kylehendershot.com'
 paginate:            5
