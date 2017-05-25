@@ -6,8 +6,8 @@ relative_permalinks: true
 
 # Setup
 title:               Kyle Hendershot
-tagline:             'Actor, Model, Entrepeneur'
-description:         'Paul Hendricks is a Actor, Model, and Entrepeneur based out of Los Angeles, California.'
+tagline:             'Actor & Writer'
+description:         'Kyle Hendershot is an Actor and Writer from Ohio now living in Los Angeles, CA. '
 url:                 http://kylehendershot.com
 baseurl:             'http://kylehendershot.com'
 paginate:            5
