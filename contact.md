@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Contact
-subtitle: Email
+subtitle:
 ---
 
+Email: 
 hendershotbooking@gmail.com
 
