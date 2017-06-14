@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Contact
-subtitle: Coming soon...
+subtitle: Email
 ---
 
-To be edited.
+hendershotbooking@gmail.com
+
