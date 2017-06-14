@@ -26,11 +26,9 @@ fourohfour: "/resources/img/404-southpark.jpg"
 navbar-links:
   Home: "http://kylehendershot.com"
   Blog: "http://kylehendershot.com/blog/"
-  Portfolio: "http://kylehendershot.com/portfolio/"
-  Projects: "http://kylehendershot.com/projects/"
-  About me: "http://kylehendershot.com/about/"
-  Resume: "http://kylehendershot.com/resume/"
-nav-search: "http://kylehendershot.com/search/"
+  Acting: "http://kylehendershot.com/acting/"
+  Producing: "http://kylehendershot.com/producing/"
+  Contact: "http://kylehendershot.com/contact/"
   
 # --- Footer options --- #
 
