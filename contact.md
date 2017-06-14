@@ -4,6 +4,5 @@ title: Contact
 subtitle:
 ---
 
-Email: 
-hendershotbooking@gmail.com
+        hendershotbooking@gmail.com
 
