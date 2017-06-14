@@ -1,21 +1,145 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# --- Serving options --- #
 
-# Setup
-title:               Kyle Hendershot
-tagline:             'Actor & Writer'
-description:         'Kyle Hendershot is an Actor and Writer from Ohio now living in Los Angeles, CA. '
-url:                 http://kylehendershot.com
-baseurl:             'http://kylehendershot.com'
-paginate:            5
+# If you are building a simple GitHub user page (username.github.io) then use these settings:
+url: "http://kylehendershot.com"
+baseurl: ""
 
-# About/contact
+# Name of website
+title: "Kyle Hendershot"
+
+# Short description of your site
+description: "The personal website of Kyle Hendershot!"
+
+# Where things are
+layouts_dir: "./resources/_layouts"
+includes_dir: "./resources/_includes"
+
+# --- Navigation bar options --- #
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/resources/img/avatar-icon.png"
+favicon: "/resources/img/favicon.ico"
+fourohfour: "/resources/img/404-southpark.jpg"
+
+# List of links in the navigation bar
+navbar-links:
+  Home: "http://kylehendershot.com"
+  Blog: "http://kylehendershot.com/blog/"
+  Portfolio: "http://kylehendershot.com/portfolio/"
+  Projects: "http://kylehendershot.com/projects/"
+  About me: "http://kylehendershot.com/about/"
+  Resume: "http://kylehendershot.com/resume/"
+nav-search: "http://kylehendershot.com/search/"
+  
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name:              Kyle Hendershot
-  url:               http://kylehendershot.com
-  email:             hendershotbooking@gmail.com
+  name: "Kyle Hendershot"
+  email: ""
+  facebook: ""  # eg. daattali
+  twitter: ""  # eg. daattali
+  linkedin: ""  # eg. "pub/dean-attali/8/946/143"
+ 
+# Select which links to show in the footer
+footer-links-active:
+  rss: true
+  facebook: true
+  email: true
+  twitter: true
+  linkedin: true
 
-# Custom vars
-version:             1.0.0
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "kylehendershot.com"  # eg. "deanattali.com/beautiful-jekyll"
+
+# --- Misc --- #
+
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+disqus: "kylehendershot-com"
+
+# Fill in your Google Analytics ID to track your website using GA
+#google_analytics: "UA-83574607-1"
+
+# --- Don't need to touch anything below here (but you can if you want) --- #
+
+# Output options (more information on Jekyll's site)
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true  # add comments to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "default"
+
+# Exclude these files from production site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CNAME
+  - Vagrantfile
+
+# prose.io config
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /img
+    - /js
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+  
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
